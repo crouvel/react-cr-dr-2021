@@ -25,7 +25,7 @@ const TypeChart = () => {
                 responsive: false,
                   datasets: [{
                     data: typeAmount,
-                    backgroundColor: ['#FB3640', '#EFCA08', '#43AA8B', '#253D5B','#FB3640', '#EFCA08', '#43AA8B', '#253D5B','#FB3640', '#EFCA08', '#43AA8B', '#253D5B','#FB3640', '#EFCA08', '#43AA8B', '#253D5B' ]
+                    backgroundColor: ['#ff00ff', '#ff7f50', '#c0d6e4', '#4ca3dd','#468499', '#b4eeb4', '#0ff1ce', '#f7347a','#20b2aa', '#ffc3a0', '#43AA8B', '#808080','#8a2be2', '#fff68f', '#420420', '#c6e2ff' ]
                   }],
                   labels: typeNames
                 

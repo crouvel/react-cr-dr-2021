@@ -7,27 +7,26 @@ const GareChart = () => {
     const [chartData, setChartData] = useState({});
 
     const chart = () => {
-        var typeNames = [];
-        var typeAmount = [];
+        var garesNames = [];
+        var garesAmount = [];
          return axios
-        .get('http://localhost:5000/api/records/typescount')
+        .get('http://localhost:5000/api/records/garescount')
         .then(res => {
             console.log(res.data);
             for (const dataObj of res.data) {
-              typeNames.push(dataObj.gc_obo_type_c);
-              typeAmount.push(parseInt(dataObj.total));
+              garesNames.push(dataObj.gc_obo_gare_origine_r_name);
+              garesAmount.push(parseInt(dataObj.total));
             }
 
-            console.log(typeNames);
-            console.log(typeAmount);
+            console.log(garesNames);
+            console.log(garesAmount);
             setChartData({
                 maintainAspectRatio: false,
                 responsive: false,
                   datasets: [{
-                    data: typeAmount,
-                    backgroundColor: ['#FB3640', '#EFCA08', '#43AA8B', '#253D5B','#FB3640', '#EFCA08', '#43AA8B', '#253D5B','#FB3640', '#EFCA08', '#43AA8B', '#253D5B','#FB3640', '#EFCA08', '#43AA8B', '#253D5B' ]
+                    data: garesAmount
                   }],
-                  labels: typeNames
+                  labels: garesNames
                 
             });
            

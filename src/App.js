@@ -2,6 +2,7 @@ import './App.css';
 import TypeChart from "./components/TypeChart";
 import Navbar from "./components/Navbar/Navbar";
 import Tabs from "./components/Tabs/Tabs";
+import GareChart from "./components/GareChart";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ Actually, there's ... records.
           </p>
         </div>
         <div title="gares">
-         
+         <GareChart/>
         </div>
         <div title="données">
           

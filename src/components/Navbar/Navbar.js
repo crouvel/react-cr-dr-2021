@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <div className="nav">
             <ul className="liste">
-            <li className="items">CHARTS OPEN DATA
+            <li className="items">SNCF OPEN DATA
             </li>
             </ul>
         </div>
