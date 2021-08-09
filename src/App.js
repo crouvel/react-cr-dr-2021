@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       {/*<p>
-Actually, there's ... records.
+Currently, there's ... records.
       </p>*/}
       <div className="tabs">
       <Tabs>
@@ -20,15 +20,20 @@ Actually, there's ... records.
          
           </p>
         </div>
-        <div title="Types d'objets">
+        <div title="Types d'objets" className="types">
           <h3></h3>
-          <p>
-        
+          <div className="panels">
+        <div className="panel">
          <TypeChart/>
-          </p>
+         </div>
+          </div>
         </div>
         <div title="gares">
+        <div className="panels">
+        <div className="panel">
          <GareChart/>
+         </div>
+         </div>
         </div>
         <div title="données">
           

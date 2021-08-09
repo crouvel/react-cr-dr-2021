@@ -1,15 +1,16 @@
 .nav {
-    height: 50px;
+    height: 40px;
     background: linear-gradient(45deg, rgb(156,14,156), midnightblue);
 }
 
 .liste {
   list-style-type: none;
-  margin-top: 10px;
+  margin-top: 8px;
   height: 100%;
  width: 100%;
  color: white;
  font-family: 'Montserrat', sans-serif; 
+ font-size: 10;
  
 }
 

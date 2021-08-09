@@ -3,6 +3,24 @@
 }
 
 .tabs {
-  margin-top: 50px;
-  margin-left: 200px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.panels{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  
+  width:800px;
+  height: 500px;
+  border-radius:3px;
+  overflow:hidden;
+   align-items: center;
+}
+.panel{
+  width:100%;
+  height: 100%;
+  animation: fadein .8s;
+  
 }

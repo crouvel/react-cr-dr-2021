@@ -18,17 +18,21 @@ export const Tab = ({ title, onClick, active = false }) => {
         li.tab-item {
           list-style-type: none;
           padding: 1rem 2rem;
-          background-color: #b2beb5;
-          font-weight: bold;
+          background-color: #E3E3E3;
+          font-weight: normal;
+          font-family: 'Montserrat', sans-serif;
           text-transform: uppercase;
           letter-spacing: 0.1rem;
           cursor: pointer;
           transition: all 0.5s ease;
+          color:#9B43C6;
+          
         }
 
         li.tab-item:hover,
         li.tab-item.active {
-          background-color: #76fa97;
+          background-color: #4B3598;
+          color: white;
         }
       `}</style>
     </>
