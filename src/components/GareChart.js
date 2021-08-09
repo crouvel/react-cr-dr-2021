@@ -3,7 +3,7 @@ import axios from "axios";
 import { Doughnut } from 'react-chartjs-2';
 
 
-const TypeChart = () => {
+const GareChart = () => {
     const [chartData, setChartData] = useState({});
 
     const chart = () => {
@@ -63,4 +63,4 @@ const styles = {
  
 };
 
-export default TypeChart;
+export default GareChart;

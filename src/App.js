@@ -1,11 +1,39 @@
 import './App.css';
 import TypeChart from "./components/TypeChart";
+import Navbar from "./components/Navbar/Navbar";
+import Tabs from "./components/Tabs/Tabs";
 
 function App() {
   return (
     <div className="App">
-      Charts sncf open data
-      <TypeChart/>
+      <Navbar/>
+      {/*<p>
+Actually, there's ... records.
+      </p>*/}
+      <div className="tabs">
+      <Tabs>
+      <div title="Informations">
+          <h3></h3>
+          <p>
+        
+         
+          </p>
+        </div>
+        <div title="Types d'objets">
+          <h3></h3>
+          <p>
+        
+         <TypeChart/>
+          </p>
+        </div>
+        <div title="gares">
+         
+        </div>
+        <div title="données">
+          
+        </div>
+      </Tabs>
+    </div>
     </div>
     
   );
