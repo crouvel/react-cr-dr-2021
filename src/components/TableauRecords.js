@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from "react";
+import Datatable from "./Datatable";
+
 require("es6-promise").polyfill();
 require("isomorphic-fetch");
 
@@ -13,7 +15,8 @@ export default function TableauRecords(){
     },[])
     return(
         <div>
-        <div>datatable here</div>            
+        <div>
+          <Datatable data={data}/> </div>            
         </div>
     )
 }

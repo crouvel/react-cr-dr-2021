@@ -37,7 +37,11 @@ Currently, there's ... records.
             </div>
           </div>
           <div title="données">
+          <div className="panels">
+              <div className="panel">
             <TableauRecords/>
+            </div>
+            </div>
           </div>
         </Tabs>
       </div>
