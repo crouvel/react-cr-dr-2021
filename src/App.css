@@ -13,9 +13,20 @@
   box-shadow: 0 2rem 2rem #00000080;
   
   width:800px;
-  height: 500px;
+  max-height: 500px;
   border-radius:3px;
   overflow:hidden;
+   align-items: center;
+}
+.panelsRecords{
+  background:#fffffff6;
+  box-shadow: 0 2rem 2rem #00000080;
+  
+  width:800px;
+  max-height: 500px;
+  border-radius:3px;
+  overflow-x: hidden;
+  overflow-y:scroll;
    align-items: center;
 }
 .panel{

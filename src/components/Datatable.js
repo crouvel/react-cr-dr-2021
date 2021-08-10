@@ -7,5 +7,12 @@ export default function Datatable({data}){
         <thead>
     <tr>{data[0] && columns.map(heading => <th>{heading}</th>)}</tr>
         </thead>
+        <tbody style={{}}>
+            {data.map(row => <tr>
+                {
+                    columns.map(column => <td>{row[column]}</td>)
+                }
+            </tr>)}
+        </tbody>
     </table>);
 }
